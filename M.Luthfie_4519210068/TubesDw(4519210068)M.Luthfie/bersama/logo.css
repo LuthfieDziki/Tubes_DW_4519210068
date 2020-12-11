@@ -1,0 +1,28 @@
+
+/*animiasi logo*/
+.ml3 {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+.active .type15 {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out; 
+}
+.active .type15:before {
+    left: 6px;
+    transform: translateY(-8px) rotate(-138deg); 
+}
+.active .type15:after {
+    left: 6px;
+    transform: translateY(6px) rotate(-226deg); 
+}
+
+/*animasi navigasi*/
+.ml15 {
+  font-weight: 200px;
+  font-size: 1;
+}
+
+.ml15 .word {
+  line-height: 1em;
+}

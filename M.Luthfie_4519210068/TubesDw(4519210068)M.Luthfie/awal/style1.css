@@ -1,0 +1,7 @@
+body {
+  position: relative;
+}
+.card mb-12 box-shadow shadow-lg{
+	 border:2px solid black; 
+	 padding:5px;
+}
